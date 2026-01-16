@@ -1,6 +1,3 @@
-```markdown
-# Challenge 1: Data Cleaning & Outlier Detection for Smart-City Energy
-
 ## Overview
 This challenge focuses on cleaning and exploring a real smart-city energy dataset. The primary goal is to use k-means clustering to detect atypical days (potential outliers) for several buildings based on their energy consumption patterns.
 
