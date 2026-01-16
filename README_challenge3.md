@@ -1,5 +1,3 @@
-# Challenge 3 – Modelling Smart-City Energy Consumption: README
-
 This notebook addresses **Challenge 3** which focuses on building a machine learning model to predict daily energy consumption for smart-city buildings and evaluating its fairness across different building groups.
 
 ## Goals:
@@ -27,5 +25,3 @@ This notebook addresses **Challenge 3** which focuses on building a machine lear
 6.  **Fairness of Prediction Errors across Building Groups**:
     - A `test_results` DataFrame is created to store true values, predictions, and absolute errors for both models.
     - Mean Absolute Error (MAE) is computed for both models, grouped by `building_type` and `location`, to identify systematic errors.
-7.  **Short Discussion**: A markdown cell discusses model performance, feature importance, fairness findings, and potential strategies for fairer energy management policies.
-8.  ***Optional* – Design a simple regression fairness metric**: (Not yet implemented) This optional section suggests defining a custom fairness metric for regression problems, similar to those in AIF360, and applying it to the models.
